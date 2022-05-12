@@ -61,9 +61,5 @@
             android:gravity="center_vertical"
             android:text="(10/12/2010)"
             android:textSize="14sp" />
-
-
-
     </LinearLayout>
-
 </RelativeLayout>

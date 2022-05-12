@@ -1,4 +1,4 @@
-package com.andresgqjob.expenseapp;
+package com.andresgqjob.expenseapp.model;
 
 public class TripInfo {
     public String image_url;
@@ -6,7 +6,7 @@ public class TripInfo {
     public String decription;
     public int tripID;
 
-    TripInfo(String image, String date, String description, int tripID){
+    public TripInfo(String image, String date, String description, int tripID){
         this.image_url = image;
         this.date = date;
         this.decription = description;

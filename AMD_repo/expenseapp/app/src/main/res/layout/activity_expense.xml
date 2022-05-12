@@ -4,30 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ExpenseActivity">
+    tools:context=".ui.ExpenseActivity">
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="16dp"
         android:text="Fecha:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextDate"
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toStartOf="@+id/txtf_date"
         app:layout_constraintTop_toBottomOf="@+id/textView11" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="97dp"
         android:layout_height="20dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
         android:text="Cantidad:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber"
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toStartOf="@+id/txtf_amount"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txtf_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -42,50 +44,19 @@
         android:layout_width="112dp"
         android:layout_height="22dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="40dp"
         android:text="Descripción:"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintHorizontal_bias="0.529"
+        android:textAlignment="viewEnd"
+        app:layout_constraintEnd_toStartOf="@+id/txtf_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView13"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="52dp"
-        android:text="Pagador:"
-        app:layout_constraintBottom_toTopOf="@+id/payer_list"
-        app:layout_constraintEnd_toStartOf="@+id/textView14"
-        app:layout_constraintHorizontal_bias="0.585"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="52dp"
-        android:text="(...)"
-        app:layout_constraintBottom_toTopOf="@+id/payer_list"
-        app:layout_constraintEnd_toStartOf="@+id/button3" />
-
     <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.706"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="317dp" />
-
-    <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn_expense_save"
         android:layout_width="130dp"
         android:layout_height="69dp"
         android:layout_marginBottom="16dp"
-        android:text="Button"
+        android:text="Save"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -95,32 +66,91 @@
         android:layout_width="381dp"
         android:layout_height="262dp"
         android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/btn_expense_save"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/txtf_amount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="36dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/txtf_description" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/txtf_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
         android:ems="10"
         android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/txtf_amount" />
 
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtf_date">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:gravity="center_vertical"
+            android:text="Pagador:" />
+
+        <Spinner
+            android:id="@+id/payer_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_add_payer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:gravity="center_vertical"
+
+            android:text="Add Payer" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lbl_warning"
+        android:layout_width="352dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:textAlignment="center"
+        android:textColor="#C10D0D"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/payer_list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_expense_save"
+        android:indeterminateOnly="true"
+        android:keepScreenOn="true"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

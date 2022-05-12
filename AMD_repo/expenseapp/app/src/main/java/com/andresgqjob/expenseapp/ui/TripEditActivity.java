@@ -1,8 +1,10 @@
-package com.andresgqjob.expenseapp;
+package com.andresgqjob.expenseapp.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.andresgqjob.expenseapp.R;
 
 public class TripEditActivity extends AppCompatActivity {
 

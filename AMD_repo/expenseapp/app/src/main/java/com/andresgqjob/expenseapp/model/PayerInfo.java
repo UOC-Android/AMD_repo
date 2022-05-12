@@ -1,4 +1,4 @@
-package com.andresgqjob.expenseapp;
+package com.andresgqjob.expenseapp.model;
 
 public class PayerInfo {
     public String image_url;
@@ -6,7 +6,7 @@ public class PayerInfo {
     public String email;
     public int amount;
 
-    PayerInfo(String image, String name, String email, int amount){
+    public PayerInfo(String image, String name, String email, int amount) {
         this.image_url = image;
         this.name = name;
         this.email = email;
