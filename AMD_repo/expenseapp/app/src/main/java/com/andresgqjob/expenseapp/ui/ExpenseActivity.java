@@ -24,7 +24,9 @@ import com.andresgqjob.expenseapp.model.PayerInfo;
 import com.andresgqjob.expenseapp.model.UserInfo;
 import com.andresgqjob.expenseapp.ui.adapter.PayerListAdapter;
 
+import java.text.MessageFormat;
 import java.util.ArrayList;
+
 
 public class ExpenseActivity extends AppCompatActivity {
     EditText txt_amount;
@@ -53,7 +55,6 @@ public class ExpenseActivity extends AppCompatActivity {
 
         txt_amount = findViewById(R.id.txtf_amount);
         txt_date = findViewById(R.id.txtf_date);
-        ;
         txt_description = findViewById(R.id.txtf_description);
         lbl_warning = findViewById(R.id.lbl_warning);
         lbl_warning.setVisibility(View.INVISIBLE);
@@ -61,56 +62,53 @@ public class ExpenseActivity extends AppCompatActivity {
         progressBar = findViewById(R.id.progressBar);
         progressBar.setVisibility(View.INVISIBLE);
         btnSave = findViewById(R.id.btn_expense_save);
-        btnSave.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                boolean showWarning = false;
-                String infoWarning = "";
-                if (payers.size() == 0) {
-                    showWarning = true;
-                    infoWarning = "Before saving you need to add at least one payer";
-                } else {
-                    int totalAmount = 0;
-                    for (PayerInfo payer : payers) {
-                        totalAmount += payer.amount;
-                    }
-                    String s_totalAmount = txt_amount.getText().toString();
-
-                    try {
-                        int number = Integer.parseInt(s_totalAmount);
-                        if (totalAmount != number) {
-                            lbl_warning.setVisibility(View.VISIBLE);
-                            infoWarning = "Be careful, the sum of all the payers (" + totalAmount + "€)";
-                            infoWarning += "have to be (" + number + "€)";
-                            showWarning = true;
-                        } else {
-                            showWarning = false;
-                        }
-                    } catch (NumberFormatException ex) {
-                        ex.printStackTrace();
-                    }
+        btnSave.setOnClickListener(v -> {
+            boolean showWarning = false;
+            String infoWarning = "";
+            if (payers.isEmpty()) {
+                showWarning = true;
+                infoWarning = "Before saving you need to add at least one payer";
+            } else {
+                int totalAmount = 0;
+                for (PayerInfo payer : payers) {
+                    totalAmount += payer.amount;
                 }
+                String s_totalAmount = txt_amount.getText().toString();
 
-                if (showWarning) {
-                    new AlertDialog.Builder(ExpenseActivity.this)
-                            .setTitle("Error saving the expanse")
-                            .setMessage(infoWarning)
-
-                            .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int which) {
-                                    // Continue with delete operation
-                                }
-                            })
-
-                            .setIcon(android.R.drawable.ic_dialog_alert)
-                            .show();
-                } else {
-                    progressBar.setVisibility(View.VISIBLE);
-                    btnSave.setEnabled(false);
-                    DoConnection();
+                try {
+                    int number = Integer.parseInt(s_totalAmount);
+                    if (totalAmount != number) {
+                        lbl_warning.setVisibility(View.VISIBLE);
+                        infoWarning = "Be careful, the sum of all the payers (" + totalAmount + "€)";
+                        infoWarning += "have to be (" + number + "€)";
+                        showWarning = true;
+                    } else {
+                        savedCorrectly = true;
+                        finish();
+                    }
+                } catch (NumberFormatException ex) {
+                    ex.printStackTrace();
                 }
             }
+
+            if (showWarning) {
+                new AlertDialog.Builder(ExpenseActivity.this)
+                        .setTitle("Error saving the expanse")
+                        .setMessage(infoWarning)
+                        .setPositiveButton(android.R.string.ok, (dialog, which) -> {
+                            // Continue with delete operation
+                        })
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .show();
+            } else {
+                progressBar.setVisibility(View.VISIBLE);
+                btnSave.setEnabled(false);
+                DoConnection();
+            }
         });
+
         Bundle extras = getIntent().getExtras();
+
         if (extras != null) {
             String description = extras.getString("Description");
             String date = extras.getString("Date");
@@ -118,13 +116,12 @@ public class ExpenseActivity extends AppCompatActivity {
 
             txt_description.setText(description);
             txt_date.setText(date);
-            txt_amount.setText("" + totalAmount);
+            txt_amount.setText(MessageFormat.format("{0}", totalAmount));
 
             users = extras.getParcelableArrayList("Users");
-
         }
 
-        ArrayAdapter<UserInfo> adapter_spinner = new ArrayAdapter<UserInfo>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, users);
+        ArrayAdapter<UserInfo> adapter_spinner = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, users);
         payer_spinner = findViewById(R.id.payer_spinner);
         payer_spinner.setAdapter(adapter_spinner);
         payer_spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -136,51 +133,44 @@ public class ExpenseActivity extends AppCompatActivity {
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
-
+                // TODO document why this method is empty
             }
         });
 
-        btnAddPayer.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                UserInfo user = users.get(spinnerCurrentIndexSelected);
-                boolean userAdded = false;
-                for (PayerInfo payer : payers) {
-                    if (payer.name.compareTo(user.name) == 0) {
-                        userAdded = true;
-                        break;
-                    }
+        btnAddPayer.setOnClickListener(v -> {
+            UserInfo user = users.get(spinnerCurrentIndexSelected);
+            boolean userAdded = false;
+            for (PayerInfo payer : payers) {
+                if (payer.name.compareTo(user.name) == 0) {
+                    userAdded = true;
+                    break;
+                }
+            }
+
+            if (!userAdded) {
+                int amount = 0;
+                if (payers.isEmpty()) {
+                    amount = totalAmount;
                 }
 
-                if (!userAdded) {
-                    int amount = 0;
-                    if (payers.size() == 0) {
-                        amount = totalAmount;
-                    }
-                    PayerInfo newPayer = new PayerInfo("", user.name, "", amount);
-                    payers.add(newPayer);
-                    if (payers.size() == 1) {
-                        adapter.notifyItemChanged(payers.size() - 1);
-                    } else {
-                        adapter.notifyItemInserted(payers.size() - 1);
-                    }
+                PayerInfo newPayer = new PayerInfo("", user.name, "", amount);
+                payers.add(newPayer);
 
-
-                    updateLabelWarning();
+                if (payers.size() == 1) {
+                    adapter.notifyItemChanged(0);
                 } else {
-                    new AlertDialog.Builder(ExpenseActivity.this)
-                            .setTitle("User " + user.name + " is already added")
-                            .setMessage("")
-
-                            .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int which) {
-                                    // Continue with delete operation
-                                }
-                            })
-
-                            .setIcon(android.R.drawable.ic_dialog_alert)
-                            .show();
+                    adapter.notifyItemInserted(payers.size() - 1);
                 }
-
+                updateLabelWarning();
+            } else {
+                new AlertDialog.Builder(ExpenseActivity.this)
+                        .setTitle("User " + user.name + " is already added")
+                        .setMessage("")
+                        .setPositiveButton(android.R.string.ok, (dialog, which) -> {
+                            // Continue with delete operation
+                        })
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .show();
             }
         });
 
@@ -197,7 +187,7 @@ public class ExpenseActivity extends AppCompatActivity {
     }
 
     public void updateLabelWarning() {
-        if (payers.size() == 0) {
+        if (payers.isEmpty()) {
             lbl_warning.setVisibility(View.INVISIBLE);
         } else {
             int totalAmount = 0;
@@ -226,17 +216,14 @@ public class ExpenseActivity extends AppCompatActivity {
         //TODO.. send data to firebase and activate activity indicator while
         // waiting server response
         final Handler handler = new Handler(Looper.getMainLooper());
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                progressBar.setVisibility(View.INVISIBLE);
-                btnSave.setEnabled(true);
-                if (savedCorrectly) {
-                    Toast.makeText(ExpenseActivity.this, "Expense saved successfully", Toast.LENGTH_LONG).show();
-                } else {
-                    Toast.makeText(ExpenseActivity.this, "Error trying to save the Expense", Toast.LENGTH_LONG).show();
-                    savedCorrectly = true;
-                }
+        handler.postDelayed(() -> {
+            progressBar.setVisibility(View.INVISIBLE);
+            btnSave.setEnabled(true);
+            if (savedCorrectly) {
+                Toast.makeText(ExpenseActivity.this, "Expense saved successfully", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(ExpenseActivity.this, "Error trying to save the Expense", Toast.LENGTH_LONG).show();
+                savedCorrectly = true;
             }
         }, 1500); //1'5 seconds
     }

@@ -23,6 +23,7 @@ import com.andresgqjob.expenseapp.ui.TripViewActivity;
 import java.io.InputStream;
 import java.net.URL;
 
+
 public class TripListAdapter extends RecyclerView.Adapter<TripListAdapter.ViewHolder> {
     private final TripInfo[] listdata;
     private final Context activityContext;
@@ -67,20 +68,20 @@ public class TripListAdapter extends RecyclerView.Adapter<TripListAdapter.ViewHo
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView imageView;
-        public TextView textView_Desc;
-        public TextView textView_Date;
-        public Button btn_Amount;
-        public RelativeLayout relativeLayout;
+        public final ImageView imageView;
+        public final TextView textView_Desc;
+        public final TextView textView_Date;
+        public final Button btn_Amount;
+        public final RelativeLayout relativeLayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            this.imageView = (ImageView) itemView.findViewById(R.id.imageView);
-            this.textView_Desc = (TextView) itemView.findViewById(R.id.textView_description);
-            this.textView_Date = (TextView) itemView.findViewById(R.id.textView_date);
-            this.btn_Amount = (Button) itemView.findViewById(R.id.btn_amount);
+            this.imageView = itemView.findViewById(R.id.imageView);
+            this.textView_Desc = itemView.findViewById(R.id.textView_description);
+            this.textView_Date = itemView.findViewById(R.id.textView_date);
+            this.btn_Amount = itemView.findViewById(R.id.btn_amount);
 
-            relativeLayout = (RelativeLayout) itemView.findViewById(R.id.relativeLayout);
+            relativeLayout = itemView.findViewById(R.id.relativeLayout);
         }
     }
 
@@ -103,6 +104,7 @@ public class TripListAdapter extends RecyclerView.Adapter<TripListAdapter.ViewHo
             return logo;
         }
 
+        @Override
         protected void onPostExecute(Bitmap result) {
             imageView.setImageBitmap(result);
         }

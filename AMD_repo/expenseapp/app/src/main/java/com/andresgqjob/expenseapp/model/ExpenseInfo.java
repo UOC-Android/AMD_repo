@@ -1,17 +1,18 @@
 package com.andresgqjob.expenseapp.model;
 
-import java.util.ArrayList;
+import java.util.List;
+
 
 public class ExpenseInfo {
-    public String description;
-    public String date;
-    public int totalAmount;
-    public ArrayList<PayerInfo> payers;
+    public final String description;
+    public final String date;
+    public final int totalAmount;
+    public final List<PayerInfo> payers;
 
     public ExpenseInfo(String description,
                        String date,
                        int amount,
-                       ArrayList<PayerInfo> payers) {
+                       List<PayerInfo> payers) {
         this.date = date;
         this.description = description;
         this.totalAmount = amount;

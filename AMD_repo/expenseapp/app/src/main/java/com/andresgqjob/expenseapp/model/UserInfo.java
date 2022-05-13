@@ -3,12 +3,16 @@ package com.andresgqjob.expenseapp.model;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+import androidx.annotation.NonNull;
+
+
 public class UserInfo implements Parcelable {
     public String name;
     public String url_avatar;
     public String amountPayed;
     public String toPayOrToReceive;
 
+    @NonNull
     @Override
     public String toString() {
         return name;

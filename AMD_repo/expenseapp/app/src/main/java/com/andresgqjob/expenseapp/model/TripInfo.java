@@ -1,5 +1,6 @@
 package com.andresgqjob.expenseapp.model;
 
+
 public class TripInfo {
     public String image_url;
     public String date;

@@ -21,6 +21,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.ViewHolder> {
     private final ArrayList<UserInfo> listData;
     private Context activityContext;
@@ -61,17 +62,17 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.ViewHo
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView imageView;
-        public RelativeLayout relativeLayout;
+        public final ImageView imageView;
+        public final RelativeLayout relativeLayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            this.imageView = (ImageView) itemView.findViewById(R.id.imageView);
-            relativeLayout = (RelativeLayout) itemView.findViewById(R.id.relativeLayout);
+            this.imageView = itemView.findViewById(R.id.imageView);
+            relativeLayout = itemView.findViewById(R.id.relativeLayout);
         }
     }
 
-    private class DownLoadImageTask extends AsyncTask<String, Void, Bitmap> {
+    private static class DownLoadImageTask extends AsyncTask<String, Void, Bitmap> {
         ImageView imageView;
 
         public DownLoadImageTask(ImageView imageView) {
@@ -90,6 +91,7 @@ public class UserListAdapter extends RecyclerView.Adapter<UserListAdapter.ViewHo
             return logo;
         }
 
+        @Override
         protected void onPostExecute(Bitmap result) {
             imageView.setImageBitmap(result);
         }

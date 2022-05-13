@@ -17,16 +17,19 @@ import com.andresgqjob.expenseapp.model.ExpenseInfo;
 import com.andresgqjob.expenseapp.model.UserInfo;
 import com.andresgqjob.expenseapp.ui.ExpenseActivity;
 
+import java.text.MessageFormat;
 import java.util.ArrayList;
+import java.util.List;
+
 
 public class ExpenseListAdapter extends RecyclerView.Adapter<ExpenseListAdapter.ViewHolder> {
     private final ExpenseInfo[] listdata;
     private final Context activityContext;
     ArrayList<UserInfo> users;
 
-    public ExpenseListAdapter(ExpenseInfo[] listData, Context context, ArrayList<UserInfo> users) {
+    public ExpenseListAdapter(ExpenseInfo[] listData, Context context, List<UserInfo> users) {
         this.listdata = listData;
-        this.users = users;
+        this.users = (ArrayList<UserInfo>) users;
         this.activityContext = context;
     }
 
@@ -43,7 +46,7 @@ public class ExpenseListAdapter extends RecyclerView.Adapter<ExpenseListAdapter.
         final ExpenseInfo myListData = listdata[position];
         holder.textView_Desc.setText(listdata[position].description);
         holder.textView_Date.setText(listdata[position].date);
-        holder.textView_Amount.setText("" + listdata[position].totalAmount + " €");
+        holder.textView_Amount.setText(MessageFormat.format("{0} €", listdata[position].totalAmount));
         holder.relativeLayout.setOnClickListener(view -> {
             Intent k = new Intent(activityContext, ExpenseActivity.class);
             k.putExtra("Description", myListData.description);

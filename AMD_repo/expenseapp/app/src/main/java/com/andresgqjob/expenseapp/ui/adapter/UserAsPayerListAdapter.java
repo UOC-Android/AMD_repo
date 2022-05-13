@@ -20,13 +20,15 @@ import com.andresgqjob.expenseapp.model.UserInfo;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.List;
+
 
 public class UserAsPayerListAdapter extends RecyclerView.Adapter<UserAsPayerListAdapter.ViewHolder> {
-    private ArrayList<UserInfo> listdata;
-    private Context activityContext;
+    private final ArrayList<UserInfo> listdata;
+    private final Context activityContext;
 
-    public UserAsPayerListAdapter(ArrayList<UserInfo> listdata, Context context) {
-        this.listdata = listdata;
+    public UserAsPayerListAdapter(List<UserInfo> listdata, Context context) {
+        this.listdata = (ArrayList<UserInfo>) listdata;
         this.activityContext = context;
     }
 
@@ -52,9 +54,6 @@ public class UserAsPayerListAdapter extends RecyclerView.Adapter<UserAsPayerList
         }
 
         holder.relativeLayout.setOnClickListener(view -> {
-            //Toast.makeText(view.getContext(),"click on item: "+myListData.decription,Toast.LENGTH_LONG).show();
-            //listdata[holder.getAdapterPosition()].setDescription("KAKAK");
-            //notifyItemChanged(holder.getAdapterPosition());
         });
     }
 
@@ -64,19 +63,19 @@ public class UserAsPayerListAdapter extends RecyclerView.Adapter<UserAsPayerList
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public ImageView imageView;
-        public TextView txt_user;
-        public TextView txt_amount;
-        public TextView txt_toPayOrToReceive;
-        public RelativeLayout relativeLayout;
+        public final ImageView imageView;
+        public final TextView txt_user;
+        public final TextView txt_amount;
+        public final TextView txt_toPayOrToReceive;
+        public final RelativeLayout relativeLayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
-            this.txt_user = (TextView) itemView.findViewById(R.id.textView_description);
-            this.txt_amount = (TextView) itemView.findViewById(R.id.textView_amount);
-            this.txt_toPayOrToReceive = (TextView) itemView.findViewById(R.id.textView_date);
-            this.imageView = (ImageView) itemView.findViewById(R.id.imageView);
-            relativeLayout = (RelativeLayout) itemView.findViewById(R.id.relativeLayout);
+            this.txt_user = itemView.findViewById(R.id.textView_description);
+            this.txt_amount = itemView.findViewById(R.id.textView_amount);
+            this.txt_toPayOrToReceive = itemView.findViewById(R.id.textView_date);
+            this.imageView = itemView.findViewById(R.id.imageView);
+            relativeLayout = itemView.findViewById(R.id.relativeLayout);
         }
     }
 
@@ -99,6 +98,7 @@ public class UserAsPayerListAdapter extends RecyclerView.Adapter<UserAsPayerList
             return logo;
         }
 
+        @Override
         protected void onPostExecute(Bitmap result) {
             imageView.setImageBitmap(result);
         }
