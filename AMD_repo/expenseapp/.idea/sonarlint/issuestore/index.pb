@@ -1,8 +1,4 @@
 
-<
-build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-@
-app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 v
 Fapp/src/main/java/com/andresgqjob/expenseapp/ui/TripUsersActivity.java,d/d/dd4be43fb050dfd024520bed8a1f4481d1fb74bb
 x
@@ -19,3 +15,25 @@ q
 Aapp/src/main/java/com/andresgqjob/expenseapp/ui/MainActivity.java,a/9/a9b1019dead357a2e6c65d80b8db1cdaf5d35824
 s
 Capp/src/main/java/com/andresgqjob/expenseapp/ui/ResumeActivity.java,f/1/f1e6f69bb82e12a74fab5dea2e6f18f7ac2315ae
+r
+Bapp/src/main/java/com/andresgqjob/expenseapp/ui/LoginActivity.java,5/e/5ec1320a47e8a2b1c7e309f9122882d288d8e91e
+u
+Eapp/src/main/java/com/andresgqjob/expenseapp/ui/RegisterActivity.java,1/f/1fcf36ecf6924589d3c57c30897be632d0267f9b
+p
+@app/src/main/java/com/andresgqjob/expenseapp/model/UserInfo.java,4/2/42f27701e4980d4374153d0d14cbaceb0b13745d
+s
+Capp/src/main/java/com/andresgqjob/expenseapp/model/ExpenseInfo.java,0/4/0431f5d0c1f1ee2d4cc90b726437cc8a9eadb837
+|
+Lapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/UserListAdapter.java,0/3/03c727cc2acf7b2f04c3e883f896f662063b24f7
+ƒ
+Sapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/UserAsPayerListAdapter.java,2/f/2f149da045d98a9749f418378adbaefcef99a465
+q
+Aapp/src/main/java/com/andresgqjob/expenseapp/model/PayerInfo.java,6/b/6b5c00b0bd50afef3d65bf61d651ba2601febc74
+p
+@app/src/main/java/com/andresgqjob/expenseapp/model/TripInfo.java,e/e/ee4844bfa7fe879e4447ec6693daafb6c7432c62
+}
+Mapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/PayerListAdapter.java,9/e/9e11d497d0c108f2a46e0e62c243f028b7353386
+|
+Lapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/TripListAdapter.java,0/9/0964ae2ee5c2327b150ad0607b5d264403534c1a
+
+Oapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/ExpenseListAdapter.java,e/4/e4ef77d51e369643c842c4a854dbcae2720d6627

@@ -1,7 +1,6 @@
 package com.andresgqjob.expenseapp.ui;
 
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -29,21 +28,20 @@ import java.util.ArrayList;
 
 
 public class ExpenseActivity extends AppCompatActivity {
-    EditText txt_amount;
-    EditText txt_date;
-    EditText txt_description;
-    TextView lbl_warning;
+    EditText txtAmount;
+    EditText txtDate;
+    EditText txtDescription;
+    TextView lblWarning;
     Button btnAddPayer;
     Button btnSave;
     ArrayList<UserInfo> users;
-    ArrayList<PayerInfo> payers = new ArrayList<PayerInfo>();
+    ArrayList<PayerInfo> payers = new ArrayList<>();
     PayerListAdapter adapter;
-    Spinner payer_spinner;
+    Spinner payerSpinner;
     Integer totalAmount;
     ProgressBar progressBar;
 
     int spinnerCurrentIndexSelected = 0;
-
 
     //To debug
     boolean savedCorrectly = false;
@@ -53,13 +51,13 @@ public class ExpenseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_expense);
 
-        txt_amount = findViewById(R.id.txtf_amount);
-        txt_date = findViewById(R.id.txtf_date);
-        txt_description = findViewById(R.id.txtf_description);
-        lbl_warning = findViewById(R.id.lbl_warning);
-        lbl_warning.setVisibility(View.INVISIBLE);
-        btnAddPayer = findViewById(R.id.btn_add_payer);
-        progressBar = findViewById(R.id.progressBar);
+        txtAmount      = findViewById(R.id.txtf_amount);
+        txtDate        = findViewById(R.id.txtf_date);
+        txtDescription = findViewById(R.id.txtf_description);
+        btnAddPayer    = findViewById(R.id.btn_add_payer);
+        lblWarning     = findViewById(R.id.lbl_warning);
+        lblWarning.setVisibility(View.INVISIBLE);
+        progressBar    = findViewById(R.id.progressBar);
         progressBar.setVisibility(View.INVISIBLE);
         btnSave = findViewById(R.id.btn_expense_save);
         btnSave.setOnClickListener(v -> {
@@ -73,12 +71,12 @@ public class ExpenseActivity extends AppCompatActivity {
                 for (PayerInfo payer : payers) {
                     totalAmount += payer.amount;
                 }
-                String s_totalAmount = txt_amount.getText().toString();
+                String sTotalAmount = txtAmount.getText().toString();
 
                 try {
-                    int number = Integer.parseInt(s_totalAmount);
+                    int number = Integer.parseInt(sTotalAmount);
                     if (totalAmount != number) {
-                        lbl_warning.setVisibility(View.VISIBLE);
+                        lblWarning.setVisibility(View.VISIBLE);
                         infoWarning = "Be careful, the sum of all the payers (" + totalAmount + "€)";
                         infoWarning += "have to be (" + number + "€)";
                         showWarning = true;
@@ -103,7 +101,7 @@ public class ExpenseActivity extends AppCompatActivity {
             } else {
                 progressBar.setVisibility(View.VISIBLE);
                 btnSave.setEnabled(false);
-                DoConnection();
+                doConnection();
             }
         });
 
@@ -114,26 +112,25 @@ public class ExpenseActivity extends AppCompatActivity {
             String date = extras.getString("Date");
             totalAmount = extras.getInt("Amount");
 
-            txt_description.setText(description);
-            txt_date.setText(date);
-            txt_amount.setText(MessageFormat.format("{0}", totalAmount));
+            txtDescription.setText(description);
+            txtDate.setText(date);
+            txtAmount.setText(MessageFormat.format("{0}", totalAmount));
 
             users = extras.getParcelableArrayList("Users");
         }
 
-        ArrayAdapter<UserInfo> adapter_spinner = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, users);
-        payer_spinner = findViewById(R.id.payer_spinner);
-        payer_spinner.setAdapter(adapter_spinner);
-        payer_spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        ArrayAdapter<UserInfo> adapterSpinner = new ArrayAdapter<>(this, androidx.appcompat.R.layout.support_simple_spinner_dropdown_item, users);
+        payerSpinner = findViewById(R.id.payer_spinner);
+        payerSpinner.setAdapter(adapterSpinner);
+        payerSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
-                //Toast.makeText(view.getContext(),"click on item: "+ users.get(i).name,Toast.LENGTH_LONG).show();
                 spinnerCurrentIndexSelected = i;
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
-                // TODO document why this method is empty
+                spinnerCurrentIndexSelected = -1;
             }
         });
 
@@ -188,23 +185,23 @@ public class ExpenseActivity extends AppCompatActivity {
 
     public void updateLabelWarning() {
         if (payers.isEmpty()) {
-            lbl_warning.setVisibility(View.INVISIBLE);
+            lblWarning.setVisibility(View.INVISIBLE);
         } else {
-            int totalAmount = 0;
+            int totAmount = 0;
             for (PayerInfo payer : payers) {
-                totalAmount += payer.amount;
+                totAmount += payer.amount;
             }
-            String s_totalAmount = txt_amount.getText().toString();
+            String sTotalAmount = txtAmount.getText().toString();
 
             try {
-                int number = Integer.parseInt(s_totalAmount);
-                if (totalAmount != number) {
-                    lbl_warning.setVisibility(View.VISIBLE);
-                    String info = "Be careful, the sum of all the payers (" + totalAmount + "€)";
+                int number = Integer.parseInt(sTotalAmount);
+                if (totAmount != number) {
+                    lblWarning.setVisibility(View.VISIBLE);
+                    String info = "Be careful, the sum of all the payers (" + totAmount + "€)";
                     info += "\nhave to be (" + number + "€)";
-                    lbl_warning.setText(info);
+                    lblWarning.setText(info);
                 } else {
-                    lbl_warning.setVisibility(View.INVISIBLE);
+                    lblWarning.setVisibility(View.INVISIBLE);
                 }
             } catch (NumberFormatException ex) {
                 ex.printStackTrace();
@@ -212,9 +209,7 @@ public class ExpenseActivity extends AppCompatActivity {
         }
     }
 
-    public void DoConnection() {
-        //TODO.. send data to firebase and activate activity indicator while
-        // waiting server response
+    public void doConnection() {
         final Handler handler = new Handler(Looper.getMainLooper());
         handler.postDelayed(() -> {
             progressBar.setVisibility(View.INVISIBLE);
