@@ -1,0 +1,12 @@
+
+K
+java:S18745"/Remove this use of "execute"; it is deprecated.(ÜÇÑ8à¢‹0
+o	java:S116C"SRename this field "txt_user" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İâ¹ó8¢à¢‹0
+q	java:S116D"URename this field "txt_amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÔéÔ8£à¢‹0
+{	java:S116E"_Rename this field "txt_toPayOrToReceive" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ƒ›ú8ıÒ¡¢‹0
+N
+java:S1874R"1Remove this use of "AsyncTask"; it is deprecated.(¼ÆÙ¨8‚Ó¡¢‹0
+g
+java:S1874f"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(…«èÑ8†Ó¡¢‹0
+U
+java:S1068"3Remove this unused "activityContext" private field.(û˜—’ûÿÿÿÿ8²à¢‹0

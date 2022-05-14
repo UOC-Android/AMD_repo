@@ -9,8 +9,6 @@ u
 Eapp/src/main/java/com/andresgqjob/expenseapp/ui/TripViewActivity.java,6/b/6bf22da1e793cfdfc931d8b9dc2fcc46d351476b
 u
 Eapp/src/main/java/com/andresgqjob/expenseapp/ui/TripListActivity.java,e/4/e479724d1eb9e6ce5fa54d47df660dfdb4f1f2f3
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 q
 Aapp/src/main/java/com/andresgqjob/expenseapp/ui/MainActivity.java,a/9/a9b1019dead357a2e6c65d80b8db1cdaf5d35824
 s
@@ -37,3 +35,11 @@ Mapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/PayerListAdapter.java,
 Lapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/TripListAdapter.java,0/9/0964ae2ee5c2327b150ad0607b5d264403534c1a
 
 Oapp/src/main/java/com/andresgqjob/expenseapp/ui/adapter/ExpenseListAdapter.java,e/4/e4ef77d51e369643c842c4a854dbcae2720d6627
+>
+app/.gitignore,5/1/51e1c5d383dfaa35e0e7e5873a0a99355a86880f
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+A
+gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e

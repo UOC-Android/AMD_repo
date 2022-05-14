@@ -1,0 +1,14 @@
+
+`
+java:S1854,">Remove this useless assignment to local variable "myListData".(Ìû¾¹úÿÿÿÿ8 ¢é¡‹0
+Q
+java:S1481,"/Remove this unused "myListData" local variable.(Ìû¾¹úÿÿÿÿ8¢¢é¡‹0
+J
+java:S18741"/Remove this use of "execute"; it is deprecated.(‡Ìƒ·ÿÿÿÿÿ
+X	java:S1255"<This block of commented-out lines of code should be removed.(¥¹ÿÆ8ŠøƒÀ‹0
+N
+java:S1874K"1Remove this use of "AsyncTask"; it is deprecated.(¼ÆÙ¨8–‚è¡‹0
+g
+java:S1874_"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(…«èÑ8š‚è¡‹0
+P
+java:S1068"3Remove this unused "activityContext" private field.(‚¸Ì¼8±¢é¡‹0

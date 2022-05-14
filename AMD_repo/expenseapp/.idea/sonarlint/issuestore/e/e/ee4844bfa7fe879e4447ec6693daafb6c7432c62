@@ -1,0 +1,10 @@
+
+w
+java:S1104"UMake image_url a static final constant or non-public and provide accessors if needed.(€¸’ÿÿÿÿÿ8“¹ƒ¢‹0
+m
+java:S1104"PMake date a static final constant or non-public and provide accessors if needed.(áÊ÷8“¹ƒ¢‹0
+s
+java:S1104"VMake decription a static final constant or non-public and provide accessors if needed.(â”—8“¹ƒ¢‹0
+t
+java:S1104"RMake tripID a static final constant or non-public and provide accessors if needed.(èŠñÇşÿÿÿÿ8”¹ƒ¢‹0
+u	java:S116"TRename this field "image_url" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¸’ÿÿÿÿÿ8—¹ƒ¢‹0

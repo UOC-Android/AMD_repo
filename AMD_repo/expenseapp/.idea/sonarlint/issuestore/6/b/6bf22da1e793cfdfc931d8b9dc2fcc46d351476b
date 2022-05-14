@@ -1,0 +1,33 @@
+
+j
+java:S1192D"NDefine a constant instead of duplicating this literal "(10/17/2021)" 12 times.(áßñ8‘˜·¢‹0
+‚
+java:S1319"eThe type of "users" should be an interface such as "List" rather than the implementation "ArrayList".(¢„Š¾8¤ß®¢‹0
+l	java:S117R"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»üô8òê·¢‹0
+r	java:S117S"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃüÁüûÿÿÿÿ8“˜·¢‹0
+m	java:S117b"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ì¦Å8õê·¢‹0
+l	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷Òæ@8”˜·¢‹0
+n
+java:S1104"QMake users a static final constant or non-public and provide accessors if needed.(¢„Š¾8§ß®¢‹0
+{	java:S116"ZRename this field "txt_Description" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ ÝŠøÿÿÿÿ8Áß®¢‹0
+t	java:S116"SRename this field "txt_Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í·œ×ýÿÿÿÿ8Âß®¢‹0
+U
+java:S1854["9Remove this useless assignment to local variable "path4".(ÂƒÙ8½˜·¢‹0
+[
+java:S1854Z"9Remove this useless assignment to local variable "path3".(”ûÏ’ûÿÿÿÿ8×ß®¢‹0
+V
+java:S1854Y"9Remove this useless assignment to local variable "path2".(½‰‹Ñ8°ë·¢‹0
+^
+java:S1075X"ARefactor your code to get this URI from a customizable parameter.(Èºý¼8Äë·¢‹0
+^
+java:S1075Y"ARefactor your code to get this URI from a customizable parameter.(½‰‹Ñ8íß®¢‹0
+G
+java:S1481Y"*Remove this unused "path2" local variable.(½‰‹Ñ8Èë·¢‹0
+c
+java:S1075Z"ARefactor your code to get this URI from a customizable parameter.(”ûÏ’ûÿÿÿÿ8îß®¢‹0
+L
+java:S1481Z"*Remove this unused "path3" local variable.(”ûÏ’ûÿÿÿÿ8îß®¢‹0
+]
+java:S1075["ARefactor your code to get this URI from a customizable parameter.(ÂƒÙ8Í˜·¢‹0
+F
+java:S1481["*Remove this unused "path4" local variable.(ÂƒÙ8Í˜·¢‹0

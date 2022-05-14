@@ -1,0 +1,12 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À‹—8š…¢‹0
+m
+java:S1104
+"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8œ…¢‹0
+s
+java:S1104"VMake url_avatar a static final constant or non-public and provide accessors if needed.(“–²ƒ8…¢‹0
+t
+java:S1104"WMake amountPayed a static final constant or non-public and provide accessors if needed.(Î¢öÿ8Ÿ…¢‹0
+x
+java:S1104"\Make toPayOrToReceive a static final constant or non-public and provide accessors if needed.(ÖâÌ8Ÿ…¢‹0
+q	java:S116"URename this field "url_avatar" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“–²ƒ8ª…¢‹0

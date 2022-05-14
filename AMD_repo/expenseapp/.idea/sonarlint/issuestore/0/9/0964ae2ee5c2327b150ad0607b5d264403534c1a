@@ -1,0 +1,10 @@
+
+L
+java:S18745"/Remove this use of "execute"; it is deprecated.(‹ß»†8”ÇÆ¡‹0
+t	java:S116H"XRename this field "textView_Desc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏÑþÀ8ÞÈÄ¡‹0
+t	java:S116I"XRename this field "textView_Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûã¹³8ÞÈÄ¡‹0
+p	java:S116J"URename this field "btn_Amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û€¨8ÅÿÕ¡‹0
+N
+java:S1874X"1Remove this use of "AsyncTask"; it is deprecated.(¼ÆÙ¨8ÊÿÕ¡‹0
+g
+java:S1874l"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(…«èÑ8ÏÿÕ¡‹0

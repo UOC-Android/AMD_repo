@@ -1,0 +1,14 @@
+
+w
+java:S1104B"UMake imageView a static final constant or non-public and provide accessors if needed.(…Çªúÿÿÿÿ8êâ±¡‹0
+v
+java:S1104C"YMake textView_Desc a static final constant or non-public and provide accessors if needed.(ËåªÉ8êâ±¡‹0
+v
+java:S1104D"YMake textView_Date a static final constant or non-public and provide accessors if needed.(æß¤–8êâ±¡‹0
+x
+java:S1104E"[Make textView_Amount a static final constant or non-public and provide accessors if needed.(€úÖ8êâ±¡‹0
+|
+java:S1104F"ZMake relativeLayout a static final constant or non-public and provide accessors if needed.(‚àË²üÿÿÿÿ8²´¶¡‹0
+t	java:S116C"XRename this field "textView_Desc" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËåªÉ8 ã±¡‹0
+t	java:S116D"XRename this field "textView_Date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æß¤–8¡ã±¡‹0
+v	java:S116E"ZRename this field "textView_Amount" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€úÖ8ß´¶¡‹0
