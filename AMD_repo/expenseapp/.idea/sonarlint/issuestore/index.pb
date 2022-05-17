@@ -1,22 +1,10 @@
 
 v
 Fapp/src/main/java/com/andresgqjob/expenseapp/ui/TripUsersActivity.java,d/d/dd4be43fb050dfd024520bed8a1f4481d1fb74bb
-x
-Happ/src/main/java/com/andresgqjob/expenseapp/ui/UserProfileActivity.java,7/4/7454a1875ed59e12ac6e7038d01c1b42d29eec99
-u
-Eapp/src/main/java/com/andresgqjob/expenseapp/ui/TripEditActivity.java,6/4/640ee61b5ae4b9c8d36bd3a0b74ad37b55e7f681
 u
 Eapp/src/main/java/com/andresgqjob/expenseapp/ui/TripViewActivity.java,6/b/6bf22da1e793cfdfc931d8b9dc2fcc46d351476b
-u
-Eapp/src/main/java/com/andresgqjob/expenseapp/ui/TripListActivity.java,e/4/e479724d1eb9e6ce5fa54d47df660dfdb4f1f2f3
-q
-Aapp/src/main/java/com/andresgqjob/expenseapp/ui/MainActivity.java,a/9/a9b1019dead357a2e6c65d80b8db1cdaf5d35824
 s
 Capp/src/main/java/com/andresgqjob/expenseapp/ui/ResumeActivity.java,f/1/f1e6f69bb82e12a74fab5dea2e6f18f7ac2315ae
-r
-Bapp/src/main/java/com/andresgqjob/expenseapp/ui/LoginActivity.java,5/e/5ec1320a47e8a2b1c7e309f9122882d288d8e91e
-u
-Eapp/src/main/java/com/andresgqjob/expenseapp/ui/RegisterActivity.java,1/f/1fcf36ecf6924589d3c57c30897be632d0267f9b
 p
 @app/src/main/java/com/andresgqjob/expenseapp/model/UserInfo.java,4/2/42f27701e4980d4374153d0d14cbaceb0b13745d
 s
@@ -41,5 +29,17 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 A
 gradle.properties,2/a/2afbb999f001938c88fa43fc2ef52abf0f8213e4
-P
- app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+F
+app/proguard-rules.pro,9/e/9e08934d811afe28fbc77aaa3c0d747b94348db9
+H
+app/google-services.json,f/d/fd8d34b142d02ec743a8efefefd2c097961666e9
+;
+gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
+7
+gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
+?
+settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
+q
+Aapp/src/main/java/com/andresgqjob/expenseapp/ui/MainActivity.java,a/9/a9b1019dead357a2e6c65d80b8db1cdaf5d35824
+t
+Dapp/src/main/java/com/andresgqjob/expenseapp/ui/ExpenseActivity.java,b/6/b601e24d82bde575b5b219ad5926494d962108cb

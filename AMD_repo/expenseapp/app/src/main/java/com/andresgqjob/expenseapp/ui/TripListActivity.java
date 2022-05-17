@@ -1,19 +1,18 @@
 package com.andresgqjob.expenseapp.ui;
 
+import android.content.Intent;
+import android.os.Bundle;
+import android.widget.ImageButton;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.ImageButton;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import com.andresgqjob.expenseapp.R;
 import com.andresgqjob.expenseapp.model.TripInfo;
 import com.andresgqjob.expenseapp.ui.adapter.TripListAdapter;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
 
 public class TripListActivity extends AppCompatActivity {
     FloatingActionButton btnAddNewTrip;
@@ -29,18 +28,16 @@ public class TripListActivity extends AppCompatActivity {
         btnViewProfile = findViewById(R.id.btn_view_profile);//botón para ver el perfil
 
         //Add actions to the buttons:
-        btnAddNewTrip.setOnClickListener(new View.OnClickListener() {//botón para agregar un nuevo viaje
-            public void onClick(View v) {
-                Intent k = new Intent(TripListActivity.this, TripEditActivity.class);
-                startActivity(k);
-            }
+        //botón para agregar un nuevo viaje
+        btnAddNewTrip.setOnClickListener(v -> {
+            Intent k = new Intent(TripListActivity.this, TripEditActivity.class);
+            startActivity(k);
         });
 
-        btnViewProfile.setOnClickListener(new View.OnClickListener() {//botón para ver el perfil
-            public void onClick(View v) {
-                Intent k = new Intent(TripListActivity.this, UserProfileActivity.class);
-                startActivity(k);
-            }
+        //botón para ver el perfil
+        btnViewProfile.setOnClickListener(v -> {
+            Intent k = new Intent(TripListActivity.this, UserProfileActivity.class);
+            startActivity(k);
         });
 
         //Crear el recyclerview
