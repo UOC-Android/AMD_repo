@@ -43,3 +43,19 @@ q
 Aapp/src/main/java/com/andresgqjob/expenseapp/ui/MainActivity.java,a/9/a9b1019dead357a2e6c65d80b8db1cdaf5d35824
 t
 Dapp/src/main/java/com/andresgqjob/expenseapp/ui/ExpenseActivity.java,b/6/b601e24d82bde575b5b219ad5926494d962108cb
+<
+build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+u
+Eapp/src/main/java/com/andresgqjob/expenseapp/ui/TripListActivity.java,e/4/e479724d1eb9e6ce5fa54d47df660dfdb4f1f2f3
+x
+Happ/src/main/java/com/andresgqjob/expenseapp/ui/UserProfileActivity.java,7/4/7454a1875ed59e12ac6e7038d01c1b42d29eec99
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+u
+Eapp/src/main/java/com/andresgqjob/expenseapp/ui/TripEditActivity.java,6/4/640ee61b5ae4b9c8d36bd3a0b74ad37b55e7f681
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
+r
+Bapp/src/main/java/com/andresgqjob/expenseapp/ui/LoginActivity.java,5/e/5ec1320a47e8a2b1c7e309f9122882d288d8e91e
+u
+Eapp/src/main/java/com/andresgqjob/expenseapp/ui/RegisterActivity.java,1/f/1fcf36ecf6924589d3c57c30897be632d0267f9b

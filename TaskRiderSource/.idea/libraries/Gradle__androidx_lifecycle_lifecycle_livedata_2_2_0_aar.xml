@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.lifecycle:lifecycle-livedata:2.2.0@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/ac15228db56d02c198d8c3c3e6c3f149/transformed/lifecycle-livedata-2.2.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/ac15228db56d02c198d8c3c3e6c3f149/transformed/lifecycle-livedata-2.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/ac15228db56d02c198d8c3c3e6c3f149/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/ac15228db56d02c198d8c3c3e6c3f149/transformed/lifecycle-livedata-2.2.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/c1b9d53969ae8c095b660eb7729c3522/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/c1b9d53969ae8c095b660eb7729c3522/transformed/lifecycle-livedata-2.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/c1b9d53969ae8c095b660eb7729c3522/transformed/lifecycle-livedata-2.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c1b9d53969ae8c095b660eb7729c3522/transformed/lifecycle-livedata-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/144ccab86f4a6cf29e99483ca23af25f/transformed/lifecycle-livedata-2.2.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb5a602d17a3b2ceca1bd1f5e308b0ba/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/eb5a602d17a3b2ceca1bd1f5e308b0ba/transformed/lifecycle-livedata-2.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/eb5a602d17a3b2ceca1bd1f5e308b0ba/transformed/lifecycle-livedata-2.2.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.2.0/9849dd6833f7e999169e4f9d48949cc92bf58b50/lifecycle-livedata-2.2.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.2.0/9849dd6833f7e999169e4f9d48949cc92bf58b50/lifecycle-livedata-2.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata/2.2.0/9849dd6833f7e999169e4f9d48949cc92bf58b50/lifecycle-livedata-2.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

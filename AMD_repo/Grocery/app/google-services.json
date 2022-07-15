@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "862182477706",
+    "firebase_url": "https://grocery-26758-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "grocery-26758",
+    "storage_bucket": "grocery-26758.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862182477706:android:bf04cba2d30b8579098273",
+        "android_client_info": {
+          "package_name": "com.andresgqjob.grocery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862182477706-k3csih8o56rd0b6qbq3h41qkbmcul60q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKwTurg7p3d2xfU9h_Cvu2FEEEzZfjI1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862182477706-k3csih8o56rd0b6qbq3h41qkbmcul60q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

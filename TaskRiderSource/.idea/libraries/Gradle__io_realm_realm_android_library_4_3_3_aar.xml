@@ -1,0 +1,28 @@
+<component name="libraryTable">
+  <library name="Gradle: io.realm:realm-android-library:4.3.3@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b2a3b98bcc1aa811edda1ab47172abef/transformed/jetified-realm-android-library-4.3.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b2a3b98bcc1aa811edda1ab47172abef/transformed/jetified-realm-android-library-4.3.3/res" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b2a3b98bcc1aa811edda1ab47172abef/transformed/jetified-realm-android-library-4.3.3/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b2a3b98bcc1aa811edda1ab47172abef/transformed/jetified-realm-android-library-4.3.3/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/6e67f538b2f7e00bab3e39199fcf0a7f/transformed/jetified-realm-android-library-4.3.3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/6e67f538b2f7e00bab3e39199fcf0a7f/transformed/jetified-realm-android-library-4.3.3/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/6e67f538b2f7e00bab3e39199fcf0a7f/transformed/jetified-realm-android-library-4.3.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6e67f538b2f7e00bab3e39199fcf0a7f/transformed/jetified-realm-android-library-4.3.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5c7ba4e6a6a245759dc07f3b2cee3a60/transformed/jetified-realm-android-library-4.3.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ae23640c0595c668c7452f0557f1a8b5/transformed/jetified-realm-android-library-4.3.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/ae23640c0595c668c7452f0557f1a8b5/transformed/jetified-realm-android-library-4.3.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ae23640c0595c668c7452f0557f1a8b5/transformed/jetified-realm-android-library-4.3.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/io.realm/realm-android-library/4.3.3/1c093f06e7516cdc8fd45213494b18056707944e/realm-android-library-4.3.3-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/io.realm/realm-android-library/4.3.3/1c093f06e7516cdc8fd45213494b18056707944e/realm-android-library-4.3.3-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/4.3.3/1c093f06e7516cdc8fd45213494b18056707944e/realm-android-library-4.3.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/io.realm/realm-android-library/4.3.3/2cf324f3191d8d3b7afacc6967aa7f40ea5409e3/realm-android-library-4.3.3-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/io.realm/realm-android-library/4.3.3/2cf324f3191d8d3b7afacc6967aa7f40ea5409e3/realm-android-library-4.3.3-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.realm/realm-android-library/4.3.3/2cf324f3191d8d3b7afacc6967aa7f40ea5409e3/realm-android-library-4.3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

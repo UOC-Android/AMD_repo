@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.kayvannj:PermissionUtils:1.0.2@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/cc352e98a0c6c0364a75164424d08dd9/transformed/jetified-PermissionUtils-1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/cc352e98a0c6c0364a75164424d08dd9/transformed/jetified-PermissionUtils-1.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/cc352e98a0c6c0364a75164424d08dd9/transformed/jetified-PermissionUtils-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7e600f168a5e0a9085161df433353b72/transformed/jetified-PermissionUtils-1.0.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7e600f168a5e0a9085161df433353b72/transformed/jetified-PermissionUtils-1.0.2/res" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7e600f168a5e0a9085161df433353b72/transformed/jetified-PermissionUtils-1.0.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f08a955b11583f7e1e19c462e2cedf86/transformed/jetified-PermissionUtils-1.0.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f08a955b11583f7e1e19c462e2cedf86/transformed/jetified-PermissionUtils-1.0.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/f08a955b11583f7e1e19c462e2cedf86/transformed/jetified-PermissionUtils-1.0.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.kayvannj/PermissionUtils/1.0.2/e6ce0f38499b11a6fce11f6a0312dad6c9de4f13/PermissionUtils-1.0.2-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.kayvannj/PermissionUtils/1.0.2/e6ce0f38499b11a6fce11f6a0312dad6c9de4f13/PermissionUtils-1.0.2-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kayvannj/PermissionUtils/1.0.2/e6ce0f38499b11a6fce11f6a0312dad6c9de4f13/PermissionUtils-1.0.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.kayvannj/PermissionUtils/1.0.2/67c393454adef0fdcd6dc2c4d9fd8c4e3bfd9aab/PermissionUtils-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.kayvannj/PermissionUtils/1.0.2/67c393454adef0fdcd6dc2c4d9fd8c4e3bfd9aab/PermissionUtils-1.0.2-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.kayvannj/PermissionUtils/1.0.2/67c393454adef0fdcd6dc2c4d9fd8c4e3bfd9aab/PermissionUtils-1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

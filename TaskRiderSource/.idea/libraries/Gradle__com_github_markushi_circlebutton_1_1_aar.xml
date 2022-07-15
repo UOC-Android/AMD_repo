@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.markushi:circlebutton:1.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7a79380803741e620305f4ba3b52c651/transformed/jetified-circlebutton-1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7a79380803741e620305f4ba3b52c651/transformed/jetified-circlebutton-1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7a79380803741e620305f4ba3b52c651/transformed/jetified-circlebutton-1.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b00274b092cd162dfbaad3ebf9989b92/transformed/jetified-circlebutton-1.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b00274b092cd162dfbaad3ebf9989b92/transformed/jetified-circlebutton-1.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b00274b092cd162dfbaad3ebf9989b92/transformed/jetified-circlebutton-1.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a635d2bcdff57fa526e2c710a4b8b08f/transformed/jetified-circlebutton-1.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a635d2bcdff57fa526e2c710a4b8b08f/transformed/jetified-circlebutton-1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a635d2bcdff57fa526e2c710a4b8b08f/transformed/jetified-circlebutton-1.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.markushi/circlebutton/1.1/8db7ec3193bb29297bfdea07f9099ac58133c8a3/circlebutton-1.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.markushi/circlebutton/1.1/8db7ec3193bb29297bfdea07f9099ac58133c8a3/circlebutton-1.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.markushi/circlebutton/1.1/8db7ec3193bb29297bfdea07f9099ac58133c8a3/circlebutton-1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.markushi/circlebutton/1.1/7b6c063310b73b71bdd8dc34b52f188cdf2b6aa/circlebutton-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.markushi/circlebutton/1.1/7b6c063310b73b71bdd8dc34b52f188cdf2b6aa/circlebutton-1.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.markushi/circlebutton/1.1/7b6c063310b73b71bdd8dc34b52f188cdf2b6aa/circlebutton-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

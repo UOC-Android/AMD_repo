@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.myinnos:AlphabetIndex-Fast-Scroll-RecyclerView:1.0.92@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b04f05303ffb191e90b9b810f973a58b/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b04f05303ffb191e90b9b810f973a58b/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/res" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/b04f05303ffb191e90b9b810f973a58b/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7ac4b634f5b0c634d07e5499452abb7f/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7ac4b634f5b0c634d07e5499452abb7f/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/7ac4b634f5b0c634d07e5499452abb7f/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0fc931a510758bf93c9a982bc403fcf5/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0fc931a510758bf93c9a982bc403fcf5/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0fc931a510758bf93c9a982bc403fcf5/transformed/jetified-AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.92/3c9c3cd568c07d0f1fed908a428cd08d07ba845b/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.92/3c9c3cd568c07d0f1fed908a428cd08d07ba845b/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.92/3c9c3cd568c07d0f1fed908a428cd08d07ba845b/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.92/869ac242fd8d3e56a3d407d077bbccc612d38814/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.92/869ac242fd8d3e56a3d407d077bbccc612d38814/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.myinnos/AlphabetIndex-Fast-Scroll-RecyclerView/1.0.92/869ac242fd8d3e56a3d407d077bbccc612d38814/AlphabetIndex-Fast-Scroll-RecyclerView-1.0.92-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

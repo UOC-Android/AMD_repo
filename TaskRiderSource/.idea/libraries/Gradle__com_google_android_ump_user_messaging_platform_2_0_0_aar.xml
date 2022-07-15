@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.ump:user-messaging-platform:2.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4e71b4cbf551bc3e0e85518de077f357/transformed/jetified-user-messaging-platform-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2f4ee270a8d43fa64de51dd9aa5e624e/transformed/jetified-user-messaging-platform-2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/50138c08fb3ffee6cf28ef88a3f63f2c/transformed/jetified-user-messaging-platform-2.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/50138c08fb3ffee6cf28ef88a3f63f2c/transformed/jetified-user-messaging-platform-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/50138c08fb3ffee6cf28ef88a3f63f2c/transformed/jetified-user-messaging-platform-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.ump/user-messaging-platform/2.0.0/1d7f5f01e2c676b2f818c43b213404391c2d6536/user-messaging-platform-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

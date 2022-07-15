@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-safetynet:18.0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/8503d7c86cfefc5867983634576c218c/transformed/jetified-play-services-safetynet-18.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/8503d7c86cfefc5867983634576c218c/transformed/jetified-play-services-safetynet-18.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/8503d7c86cfefc5867983634576c218c/transformed/jetified-play-services-safetynet-18.0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/8503d7c86cfefc5867983634576c218c/transformed/jetified-play-services-safetynet-18.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/e3c0e0969eaf77506c98b98a9f86361d/transformed/jetified-play-services-safetynet-18.0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/e3c0e0969eaf77506c98b98a9f86361d/transformed/jetified-play-services-safetynet-18.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/e3c0e0969eaf77506c98b98a9f86361d/transformed/jetified-play-services-safetynet-18.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e3c0e0969eaf77506c98b98a9f86361d/transformed/jetified-play-services-safetynet-18.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/830988d7c612106ada635bf6905d6b55/transformed/jetified-play-services-safetynet-18.0.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/47a68c8ca8e4f3d53b968ceafd9a97a4/transformed/jetified-play-services-safetynet-18.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/47a68c8ca8e4f3d53b968ceafd9a97a4/transformed/jetified-play-services-safetynet-18.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/47a68c8ca8e4f3d53b968ceafd9a97a4/transformed/jetified-play-services-safetynet-18.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.google.android.gms/play-services-safetynet/18.0.1/f95c1a7a505e9d4679a4de82b3825e53656c6ecf/play-services-safetynet-18.0.1-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.google.android.gms/play-services-safetynet/18.0.1/f95c1a7a505e9d4679a4de82b3825e53656c6ecf/play-services-safetynet-18.0.1-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-safetynet/18.0.1/f95c1a7a505e9d4679a4de82b3825e53656c6ecf/play-services-safetynet-18.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bogdwellers:pinchtozoom:0.1@aar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/128f00621be2122e19b707e083eeb46a/transformed/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/128f00621be2122e19b707e083eeb46a/transformed/jetified-pinchtozoom-0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/128f00621be2122e19b707e083eeb46a/transformed/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/cda9c9f905c193cdbeb8a2aabfd187ab/transformed/jetified-pinchtozoom-0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/cda9c9f905c193cdbeb8a2aabfd187ab/transformed/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/transforms-3/cda9c9f905c193cdbeb8a2aabfd187ab/transformed/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e2b3ee8e5f7c1ff18114f2246b87705e/transformed/jetified-pinchtozoom-0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e2b3ee8e5f7c1ff18114f2246b87705e/transformed/jetified-pinchtozoom-0.1/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e2b3ee8e5f7c1ff18114f2246b87705e/transformed/jetified-pinchtozoom-0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.bogdwellers/pinchtozoom/0.1/90d7ae77cbd84889a7fe1608c14108545fd30ec7/pinchtozoom-0.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../GithubSamples/LinkOS-Android-Samples-SignatureCaptureDemo/SignatureCaptureDemo/gradle/wrapper/caches/modules-2/files-2.1/com.bogdwellers/pinchtozoom/0.1/90d7ae77cbd84889a7fe1608c14108545fd30ec7/pinchtozoom-0.1-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bogdwellers/pinchtozoom/0.1/90d7ae77cbd84889a7fe1608c14108545fd30ec7/pinchtozoom-0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

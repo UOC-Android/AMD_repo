@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.fragment.autentification.RegistrarFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_rect01"
+        tools:context=".MainActivity">
+
+        <!--text view for heading-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Bienvendio | Crear cuenta"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:id="@+id/idTVHeader" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_circle01"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_key_white"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewFoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
+
+
+        <EditText
+            android:id="@+id/editTextTextNombre"
+            android:layout_below="@+id/imageViewFoto"
+            android:hint="nombre"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_person_gray"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/shape_rect02" />
+
+        <EditText
+            android:id="@+id/editTextTextCorreo"
+            android:layout_below="@+id/editTextTextNombre"
+            android:hint="email"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_mail_gray"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/shape_rect02" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_below="@+id/editTextTextCorreo"
+            android:hint="password"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_lock_gray"
+            android:drawableEnd="@drawable/ic_eye_gray"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:background="@drawable/shape_rect02" />
+
+        <Button
+            android:id="@+id/btnRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextTextPassword"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/SeaGreen"
+            android:text="Registrar"
+            android:textAllCaps="false" />
+
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnRegistrarse"
+            android:text="¿Ya estás registrado? Inicia sesión"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/DarkBlue"/>
+
+        <TextView
+            android:id="@+id/textViewRegistrarse"
+            android:layout_below="@id/login_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="20dp"
+            android:background="@color/dark_blue"
+            android:minWidth="240dp"
+            android:padding="10dp"
+            android:text="Registrar usuario"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="27dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>
