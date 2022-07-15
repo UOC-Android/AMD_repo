@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Asteroids!</string>
+    <string name="btn_inicio">Play!</string>
+    <string name="btn_config">Setup</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_info">Credits</string>
+</resources>

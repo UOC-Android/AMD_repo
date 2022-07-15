@@ -1,0 +1,13 @@
+
+
+java:S1450"_Remove the "checkCredentials" field and declare it as a local variable in the relevant methods.(È³—¼ûÿÿÿÿ8¤ó³ı/
+i
+java:S5998b"LRefactor this repetition that can lead to a stack overflow for large inputs.(ğÓş‹8ñó³ı/
+m	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıçò8÷ó³ı/
+r	java:S117a"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çóê°ÿÿÿÿÿ8÷ó³ı/
+E
+java:S1604$"(Make this anonymous inner class a lambda(¨±ÓŸ8øó³ı/
+J
+java:S1604-"(Make this anonymous inner class a lambda(’ïÉÍüÿÿÿÿ8øó³ı/
+J
+java:S16046"(Make this anonymous inner class a lambda( •€Æüÿÿÿÿ8øó³ı/
